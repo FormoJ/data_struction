@@ -12,8 +12,6 @@ def min_coins(coins, num):
             zhao.append(i)
             return 1 + min_coins(coins, num - i)
 
-def gaijin_digui(coins, num):
-    pass
 
 
 print(min_coins(coins, num))
